@@ -1,11 +1,77 @@
+@import '@fontsource/philosopher';
+@import '@fontsource-variable/montserrat';
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+h2 {
+  font-family: 'Philosopher', serif;
+}
+
+p, span {
+  font-family: 'Montserrat Variable', sans-serif;
+}
+
 .headerContainer {
   height: 100vh;
 }
 
+.sectionEstudiante {
+  height: 100vh;
+  padding: 50px;
+}
 
+.diseño1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estudiante {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.estudianteInfo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.estudianteInfo h2 {
+  font-size: 40px;
+  border-bottom: 2px black solid;
+}
+
+.estudianteInfo p {
+  line-height: 1.7;
+}
+
+.iconos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.estudianteImg {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.estudianteImg img {
+  width: 60%;
+  height: 80%;
+}
