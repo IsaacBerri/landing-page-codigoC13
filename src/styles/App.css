@@ -19,18 +19,15 @@ p, span {
   height: 100vh;
 }
 
-.sectionEstudiante {
+.sectionEstudiante1, .sectionEstudiante2, .sectionEstudiante3 {
   height: 100vh;
   padding: 50px;
-}
-
-.diseño1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.estudiante {
+.sectionEstudiante1 .estudiante {
   width: 60%;
   height: auto;
   display: flex;
@@ -39,23 +36,23 @@ p, span {
   gap: 30px;
 }
 
-.estudianteInfo {
+.sectionEstudiante1 .estudianteInfo {
   width: 90%;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
-.estudianteInfo h2 {
+.sectionEstudiante1 .estudianteInfo h2 {
   font-size: 40px;
   border-bottom: 2px black solid;
 }
 
-.estudianteInfo p {
+.sectionEstudiante1 .estudianteInfo p {
   line-height: 1.7;
 }
 
-.iconos{
+.sectionEstudiante1 .iconos{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -63,7 +60,7 @@ p, span {
   gap: 40px;
 }
 
-.estudianteImg {
+.sectionEstudiante1 .estudianteImg {
   width: 40%;
   height: 100%;
   display: flex;
@@ -71,7 +68,107 @@ p, span {
   align-items: center;
 }
 
-.estudianteImg img {
+.sectionEstudiante1 .estudianteImg img {
   width: 60%;
   height: 80%;
+  object-fit: cover;
 }
+
+.sectionEstudiante2 .estudiante {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 50px;
+}
+
+.sectionEstudiante2 .estudianteInfo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sectionEstudiante2 .estudianteInfo h2 {
+  font-size: 40px;
+  border-bottom: 2px black solid;
+}
+
+.sectionEstudiante2 .estudianteInfo p {
+  line-height: 1.7;
+}
+
+.sectionEstudiante2 .iconos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.sectionEstudiante2 .estudianteImg {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionEstudiante2 .estudianteImg img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionEstudiante3 .estudianteImg {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sectionEstudiante3 .estudianteImg h2 {
+  font-size: 40px;
+  border-bottom: 2px black solid;
+}
+
+.sectionEstudiante3 .estudianteImg img {
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.sectionEstudiante3 .estudiante {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sectionEstudiante3 .estudianteInfo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sectionEstudiante3 .estudianteInfo p {
+  line-height: 1.7;
+}
+
+.sectionEstudiante3 .iconos{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 50px;
+}
+
+

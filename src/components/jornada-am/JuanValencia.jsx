@@ -3,7 +3,7 @@ import React from "react";
 
 const JuanValencia = () => {
   return (
-    <section className="sectionEstudiante diseño1">
+    <section className="sectionEstudiante1">
       {/* <span className="talento posicionTop">Ingles B2</span> */}
       <article className="estudiante">
         <div className="estudianteInfo">
@@ -25,7 +25,7 @@ const JuanValencia = () => {
           </p>
         </div>
 
-        <span className="iconos">
+        <span className="iconos" style={{ color : "#EBB725"}}>
         <Icon icon="jam:github" width="50" height="50" />
         <Icon icon="mdi:linkedin" width="50" height="50" />
         <Icon icon="clarity:briefcase-solid" width="50" height="50" />
