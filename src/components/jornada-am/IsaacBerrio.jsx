@@ -4,7 +4,7 @@ import React from "react";
 const IsaacBerrio = () => {
   return (
     <section className="sectionEstudiante4">
-      {/* <span className="talento posicionTop">Ingles B2</span> */}
+      <span className="talento">EXPERIENCIA FREELANCER</span>
       <h2>Isaac Yamit Berrio Rodelo</h2>
       <article className="estudiante">
         <div className="estudianteInfo">
@@ -17,10 +17,16 @@ const IsaacBerrio = () => {
           </p>
           <picture className="estudianteImg">
             <img src="https://i.postimg.cc/MTBnKN2x/IsaacB.png" alt="" />
-            <span className="iconos" style={{ color: "#FF9800" }}>
-              <Icon icon="jam:github" width="50" height="50" />
-              <Icon icon="mdi:linkedin" width="50" height="50" />
-              <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+            <span className="iconos">
+              <a style={{ color: "#FF9800" }} href="https://github.com/IsaacBerri" target="_blank">
+                <Icon icon="jam:github" width="50" height="50" />
+              </a>
+              <a style={{ color: "#FF9800" }} href="https://www.linkedin.com/in/isaacberrio/" target="_blank">
+                <Icon icon="mdi:linkedin" width="50" height="50" />
+              </a>
+              <a style={{ color: "#FF9800" }} href="https://new-portfolio-isaacberri.vercel.app/" target="_blank">
+                <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+              </a>
             </span>
           </picture>
           <p>

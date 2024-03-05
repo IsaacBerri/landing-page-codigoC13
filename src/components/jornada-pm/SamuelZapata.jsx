@@ -4,7 +4,7 @@ import React from "react";
 const SamuelZapata = () => {
   return (
     <section className="sectionEstudiante3">
-      {/* <span className="talento posicionTop">Ingles B2</span> */}
+      <span className="talento">Ingles B1</span>
       <picture className="estudianteImg">
         <h2>Samuel Zapata Montoya</h2>
         <img src="https://i.postimg.cc/65wNMW2h/Samuel.png" alt="" />
@@ -24,10 +24,16 @@ const SamuelZapata = () => {
             conocimientos son: Java, Javascript, C, C++, entre otros.
           </p>
         </div>
-        <span className="iconos" style={{ color: "#1BB5E0" }}>
-          <Icon icon="jam:github" width="50" height="50" />
-          <Icon icon="mdi:linkedin" width="50" height="50" />
-          <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+        <span className="iconos">
+          <a style={{ color: "#1BB5E0" }} href="https://github.com/samuelzapatam22" target="_blank">
+            <Icon icon="jam:github" width="50" height="50" />
+          </a>
+          <a style={{ color: "#1BB5E0" }} href="https://www.linkedin.com/in/dev-samzapata/" target="_blank">
+            <Icon icon="mdi:linkedin" width="50" height="50" />
+          </a>
+          <a style={{ color: "#1BB5E0" }} href="https://samuelzapataportafolio.netlify.app/" target="_blank">
+            <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+          </a>
         </span>
       </article>
     </section>

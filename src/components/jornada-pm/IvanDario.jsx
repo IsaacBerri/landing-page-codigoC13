@@ -4,7 +4,7 @@ import React from "react";
 const IvanDario = () => {
   return (
     <section className="sectionEstudiante2">
-      {/* <span className="talento posicionTop">Ingles B2</span> */}
+      <span className="talento">APRENDIZAJE VELOZ</span>
       <picture className="estudianteImg">
         <img src="https://i.postimg.cc/DwxFW9zP/Ivan.png" alt="" />
       </picture>
@@ -29,10 +29,16 @@ const IvanDario = () => {
             herramienta para construir un mundo mejor!
           </p>
         </div>
-        <span className="iconos" style={{ color: "#B365E1" }}>
-          <Icon icon="jam:github" width="50" height="50" />
-          <Icon icon="mdi:linkedin" width="50" height="50" />
-          <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+        <span className="iconos">
+          <a style={{ color: "#B365E1" }} href="https://github.com/IvanAristi?tab=repositories" target="_blank">
+            <Icon icon="jam:github" width="50" height="50" />
+          </a>
+          <a style={{ color: "#B365E1" }} href="https://www.linkedin.com/in/iv%C3%A1n-aristiz%C3%A1bal/" target="_blank">
+            <Icon icon="mdi:linkedin" width="50" height="50" />
+          </a>
+          <a style={{ color: "#B365E1" }} href="https://www.behance.net/ivandaaristiz/projects" target="_blank">
+            <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+          </a>
         </span>
       </article>
     </section>

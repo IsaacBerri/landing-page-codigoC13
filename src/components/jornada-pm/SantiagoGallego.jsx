@@ -4,7 +4,7 @@ import React from "react";
 const SantiagoGallego = () => {
   return (
     <section className="sectionEstudiante1">
-      {/* <span className="talento posicionTop">Ingles B2</span> */}
+      <span className="talento">AUTOMATIZACIÓN</span>
       <article className="estudiante">
         <div className="estudianteInfo">
           <h2>Santiago Gallego Bedoya</h2>
@@ -26,10 +26,16 @@ const SantiagoGallego = () => {
           </p>
         </div>
 
-        <span className="iconos" style={{ color: "#BC4646" }}>
-          <Icon icon="jam:github" width="50" height="50" />
-          <Icon icon="mdi:linkedin" width="50" height="50" />
-          <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+        <span className="iconos">
+          <a style={{ color: "#BC4646" }} href="" target="_blank">
+            <Icon icon="jam:github" width="50" height="50" />
+          </a>
+          <a style={{ color: "#BC4646" }} href="" target="_blank">
+            <Icon icon="mdi:linkedin" width="50" height="50" />
+          </a>
+          <a style={{ color: "#BC4646" }} href="" target="_blank">
+            <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+          </a>
         </span>
       </article>
       <picture className="estudianteImg">

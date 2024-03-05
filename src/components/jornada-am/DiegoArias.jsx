@@ -4,7 +4,7 @@ import React from "react";
 const DiegoArias = () => {
   return (
     <section className="sectionEstudiante2">
-      {/* <span className="talento posicionTop">Ingles B2</span> */}
+      <span className="talento">ADAPTACIÓN AL CAMBIO</span>
       <picture className="estudianteImg">
         <img src="https://i.postimg.cc/SNWxK18g/Diego.jpg" alt="" />
       </picture>
@@ -29,10 +29,16 @@ const DiegoArias = () => {
             creatividad.
           </p>
         </div>
-        <span className="iconos" style={{ color: "#F3C363" }}>
-          <Icon icon="jam:github" width="50" height="50" />
-          <Icon icon="mdi:linkedin" width="50" height="50" />
-          <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+        <span className="iconos">
+          <a style={{ color: "#F3C363" }} href="https://github.com/dhiego1510" target="_blank">
+            <Icon icon="jam:github" width="50" height="50" />
+          </a>
+          <a style={{ color: "#F3C363" }} href="https://www.linkedin.com/in/diego-arias-car/" target="_blank">
+            <Icon icon="mdi:linkedin" width="50" height="50" />
+          </a>
+          <a style={{ color: "#F3C363" }} href="https://portafolio-nextjs-nine.vercel.app/" target="_blank">
+            <Icon icon="clarity:briefcase-solid" width="50" height="50" />
+          </a>
         </span>
       </article>
     </section>
