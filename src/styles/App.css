@@ -172,3 +172,57 @@ p, span {
 }
 
 
+.sectionEstudiante4 {
+  height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sectionEstudiante4 h2 {
+  font-size: 40px;
+}
+
+.sectionEstudiante4 .estudiante {
+  width: 100%;
+  height: auto;
+}
+
+.sectionEstudiante4 .estudianteInfo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.sectionEstudiante4 .estudianteInfo p {
+  line-height: 1.7;
+}
+
+.sectionEstudiante4 .estudianteImg {
+  width: 2500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sectionEstudiante4 .estudianteImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionEstudiante4 .iconos{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+
