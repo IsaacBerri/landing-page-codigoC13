@@ -1,5 +1,7 @@
 import React from "react";
 import Modelo3 from "../../models/Modelo3";
+import Modelo4 from "../../models/Modelo4";
+import useControllerRender from "../../hooks/useControllerRender";
 
 const info = {
   img: "https://i.postimg.cc/G2WbLvp0/Deivy.png",
@@ -24,9 +26,12 @@ const info = {
 }
 
 const DeivyPatiño = () => {
-  return (
-    <Modelo3 info={info} />
-  );
+  const { renderMovile } = useControllerRender();
+  if (renderMovile) {
+    return <Modelo4 info={info} />;
+  } else {
+    return <Modelo3 info={info} />;
+  }
 };
 
 export default DeivyPatiño;

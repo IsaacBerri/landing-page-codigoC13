@@ -300,3 +300,45 @@ p, span {
 .iconos a:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 768px) {
+  .headerContainer .headerImgContainer {
+    gap: 5px;
+  }
+  .headerContainer .headerImgContainer img {
+    width: 24%;
+  }
+
+  .headerContainer .headerHeroContainer {
+    gap: 5px;
+  }
+
+  .headerContainer .headerHeroContainer .hero h1{
+    font-size: 15px;
+  }
+
+  .talento {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sectionEstudiante1, .sectionEstudiante2, .sectionEstudiante3 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+  .sectionEstudiante4 {
+    height: auto;
+    padding: 10px;
+  }
+  .sectionEstudiante4 .estudianteInfo {
+    flex-direction: column;
+  }
+  .sectionEstudiante4 .estudianteInfo > * {
+    width: 100%;
+  }
+  .sectionEstudiante4 .estudianteImg {
+    height: auto;
+  }
+}

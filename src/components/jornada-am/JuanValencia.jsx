@@ -1,5 +1,8 @@
 import React from "react";
 import Modelo1 from "../../models/Modelo1.jsx";
+import Modelo4 from "../../models/Modelo4.jsx";
+import useControllerRender from "../../hooks/useControllerRender.jsx";
+
 
 const info = {
   img: "https://i.postimg.cc/vZ2F85PP/Juan-David.jpg",
@@ -19,13 +22,16 @@ const info = {
   color: "#EBB725",
   github: "https://github.com/davidvalenciaz",
   linkedin: "https://www.linkedin.com/in/juandvalenciazapata/",
-  portafolio: "https://davidvalenciaz.github.io/porfolio/"
-}
+  portafolio: "https://davidvalenciaz.github.io/porfolio/",
+};
 
 const JuanValencia = () => {
-  return (
-    <Modelo1 info={info} />
-  );
+  const { renderMovile } = useControllerRender();
+  if (renderMovile) {
+    return <Modelo4 info={info} />;
+  } else {
+    return <Modelo1 info={info} />;
+  }
 };
 
 export default JuanValencia;

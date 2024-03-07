@@ -1,5 +1,8 @@
 import React from "react";
 import Modelo2 from "../../models/Modelo2";
+import Modelo4 from "../../models/Modelo4";
+import useControllerRender from "../../hooks/useControllerRender";
+
 
 const info = {
   img: "https://i.postimg.cc/PfDt6V6d/Erny.png",
@@ -19,9 +22,12 @@ const info = {
 }
 
 const ErnyRodríguez = () => {
-  return (
-    <Modelo2 info={info} />
-  );
+  const { renderMovile } = useControllerRender();
+  if (renderMovile) {
+    return <Modelo4 info={info} />;
+  } else {
+    return <Modelo2 info={info} />;
+  }
 };
 
 export default ErnyRodríguez;

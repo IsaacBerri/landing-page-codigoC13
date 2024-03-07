@@ -37,6 +37,7 @@ const Modelo4 = ({ info }) => {
             </span>
           </picture>
           {info.parrafo2 && <p>{info.parrafo2}</p>}
+          {info.parrafo3 && <p>{info.parrafo3}</p>}
         </div>
       </article>
     </section>
