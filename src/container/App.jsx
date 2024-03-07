@@ -46,8 +46,6 @@ function App() {
       <BrayanCordoba/>
       <JenniferRios/>
       <XimenaOrtega/>
-      <FelipeHerrera/>
-      <BrayamRendon/>
       <ObedCordoba/>
       <JuanJaramillo/>
       <ErnyRodríguez/>

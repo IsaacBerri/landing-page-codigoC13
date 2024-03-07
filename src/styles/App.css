@@ -17,6 +17,64 @@ p, span {
 
 .headerContainer {
   height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.headerContainer .headerImgContainer {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.headerContainer .headerImgContainer img{
+  width: 25%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerContainer .headerHeroContainer {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.headerContainer .headerHeroContainer .hero {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContainer .headerHeroContainer .hero h1 {
+  width: 80%;
+  font-size: 26px;
+  font-weight: 200;
+  padding: 10px;
+  border: 2px black solid;
+  text-align: center;
+}
+
+.headerContainer .headerHeroContainer .hero img {
+  width: 100%;
+}
+
+.headerContainer .headerHeroContainer .heroImg {
+  width: 25%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .sectionEstudiante1, .sectionEstudiante2, .sectionEstudiante3 {
