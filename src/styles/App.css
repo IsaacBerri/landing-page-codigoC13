@@ -13,6 +13,7 @@ h2 {
 
 p, span {
   font-family: 'Montserrat Variable', sans-serif;
+  line-height: 1.7;
 }
 
 .headerContainer {
@@ -22,7 +23,7 @@ p, span {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .headerContainer .headerImgContainer {
@@ -77,6 +78,29 @@ p, span {
   object-fit: cover;
 }
 
+.introductionSection {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.introductionSection p{
+  width: 60%;
+}
+
+.introductionSection span {
+  font-weight: bold;
+  font-size: 25px;
+  color: #FECA19;
+}
+
 .sectionEstudiante1, .sectionEstudiante2, .sectionEstudiante3 {
   height: 100vh;
   padding: 50px;
@@ -114,10 +138,6 @@ p, span {
 .sectionEstudiante1 .estudianteInfo h2 {
   font-size: 40px;
   border-bottom: 2px black solid;
-}
-
-.sectionEstudiante1 .estudianteInfo p {
-  line-height: 1.7;
 }
 
 .sectionEstudiante1 .iconos{
@@ -161,10 +181,6 @@ p, span {
 .sectionEstudiante2 .estudianteInfo h2 {
   font-size: 40px;
   border-bottom: 2px black solid;
-}
-
-.sectionEstudiante2 .estudianteInfo p {
-  line-height: 1.7;
 }
 
 .sectionEstudiante2 .iconos{
@@ -225,10 +241,6 @@ p, span {
   gap: 30px;
 }
 
-.sectionEstudiante3 .estudianteInfo p {
-  line-height: 1.7;
-}
-
 .sectionEstudiante3 .iconos{
   width: 20%;
   height: 100%;
@@ -271,10 +283,6 @@ p, span {
   width: 33%;
 }
 
-.sectionEstudiante4 .estudianteInfo p {
-  line-height: 1.7;
-}
-
 .sectionEstudiante4 .estudianteImg {
   height: 400px;
   display: flex;
@@ -315,6 +323,14 @@ p, span {
 
   .headerContainer .headerHeroContainer .hero h1{
     font-size: 15px;
+  }
+
+  .introductionSection{
+    padding: 10px;
+  }
+  
+  .introductionSection p{
+    width: 100%;
   }
 
   .talento {

@@ -1,4 +1,5 @@
 import Header from '../components/Header'
+import IntroductionSection from '../components/IntroductionSection.jsx'
 import BrayamRendon from '../components/jornada-am/BrayamRendon.jsx'
 import DavidMachado from '../components/jornada-am/DavidMachado.jsx'
 import DeiberJerez from '../components/jornada-am/DeiberJerez.jsx'
@@ -29,6 +30,7 @@ function App() {
   return (
     <>
       <Header/>
+      <IntroductionSection/>
       <JuanValencia/>
       <IvanDario/>
       <SamuelZapata/>
