@@ -23,6 +23,7 @@ const info = {
   github: "https://github.com/davidvalenciaz",
   linkedin: "https://www.linkedin.com/in/juandvalenciazapata/",
   portafolio: "https://davidvalenciaz.github.io/porfolio/",
+  contratado: false
 };
 
 const JuanValencia = () => {

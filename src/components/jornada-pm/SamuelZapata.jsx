@@ -20,7 +20,8 @@ const info = {
   color: "#1BB5E0",
   github: "https://github.com/samuelzapatam22",
   linkedin: "https://www.linkedin.com/in/dev-samzapata/",
-  portafolio: "https://samuelzapataportafolio.netlify.app/"
+  portafolio: "https://samuelzapataportafolio.netlify.app/",
+  contratado: false
 }
 
 const SamuelZapata = () => {

@@ -24,7 +24,8 @@ const info = {
   color: "#F3C363",
   github: "https://github.com/dhiego1510",
   linkedin: "https://www.linkedin.com/in/diego-arias-car/",
-  portafolio: "https://portafolio-nextjs-nine.vercel.app/"
+  portafolio: "https://portafolio-nextjs-nine.vercel.app/",
+  contratado: false
 }
 
 const DiegoArias = () => {

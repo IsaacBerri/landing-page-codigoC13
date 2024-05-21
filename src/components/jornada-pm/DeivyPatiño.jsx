@@ -22,7 +22,8 @@ const info = {
   color: "#79DAC8",
   github: "https://github.com/Deiiivy",
   linkedin: "https://www.linkedin.com/in/deivy-programmer/",
-  portafolio: "https://magenta-donut-086a13.netlify.app/"
+  portafolio: "https://magenta-donut-086a13.netlify.app/",
+  contratado: false
 }
 
 const DeivyPatiño = () => {

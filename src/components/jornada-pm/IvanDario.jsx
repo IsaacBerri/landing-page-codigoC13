@@ -27,6 +27,7 @@ const info = {
   github: "https://github.com/IvanAristi?tab=repositories",
   linkedin: "https://www.linkedin.com/in/iv%C3%A1n-aristiz%C3%A1bal/",
   portafolio: "https://www.behance.net/ivandaaristiz/projects",
+  contratado: false
 }
 
 const IvanDario = () => {

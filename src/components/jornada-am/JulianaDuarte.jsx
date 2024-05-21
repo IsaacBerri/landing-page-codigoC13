@@ -19,7 +19,8 @@ const info = {
   color: "#ffff00",
   github: "https://github.com/JULIDUARTE",
   linkedin: "https://www.linkedin.com/in/juliana-duarte-higuita-a81ab0284/",
-  portafolio: ""
+  portafolio: "",
+  contratado: false
 }
 
 const JulianaDuarte = () => {

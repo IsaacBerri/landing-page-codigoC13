@@ -24,6 +24,7 @@ p, span {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .headerContainer .headerImgContainer {
@@ -115,6 +116,14 @@ p, span {
   top: 20px;
   right: 0;
   background-color: black;
+  color: white;
+  padding: 15px;
+}
+.contratado {
+  position:absolute;
+  top: 80px;
+  right: 0;
+  background-color: red;
   color: white;
   padding: 15px;
 }
@@ -337,6 +346,13 @@ p, span {
     position: relative;
     width: 100%;
     text-align: center;
+  }
+
+  .contratado {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 0;
   }
 
   .sectionEstudiante1, .sectionEstudiante2, .sectionEstudiante3 {

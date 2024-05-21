@@ -18,7 +18,8 @@ const info = {
   color: "#FFBB80",
   github: "",
   linkedin: "",
-  portafolio: ""
+  portafolio: "",
+  contratado: false
 }
 
 const ErnyRodríguez = () => {

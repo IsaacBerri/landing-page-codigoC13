@@ -21,6 +21,7 @@ const info = {
   github: "https://github.com/IsaacBerri",
   linkedin: "https://www.linkedin.com/in/isaacberrio/",
   portafolio: "https://new-portfolio-isaacberri.vercel.app/",
+  contratado: false
 };
 
 

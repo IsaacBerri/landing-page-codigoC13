@@ -5,6 +5,7 @@ const Modelo4 = ({ info }) => {
   return (
     <section className="sectionEstudiante4">
       <span className="talento">{info.talento}</span>
+      {info.contratado && <span className="contratado">CONTRATADO</span>}
       <h2>{info.nombre}</h2>
       <article className="estudiante">
         <div className="estudianteInfo">

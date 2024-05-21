@@ -25,7 +25,8 @@ const info = {
   color: "#89F6CC",
   github: "",
   linkedin: "",
-  portafolio: ""
+  portafolio: "",
+  contratado: true
 }
 
 const BrayanCordoba = () => {

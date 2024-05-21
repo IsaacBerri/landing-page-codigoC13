@@ -25,7 +25,8 @@ const info = {
   color: "#030305",
   github: "",
   linkedin: "",
-  portafolio: ""
+  portafolio: "",
+  contratado: false
 }
 
 const BrallamDelgado = () => {

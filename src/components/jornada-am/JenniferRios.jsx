@@ -23,7 +23,8 @@ const info = {
   color: "#0A9B94",
   github: "https://github.com/Rios06",
   linkedin: "https://www.linkedin.com/in/jennifer-rios-calle-300422296/",
-  portafolio: "https://my-portafolio-olive-six.vercel.app/"
+  portafolio: "https://my-portafolio-olive-six.vercel.app/",
+  contratado: false
 }
 
 const JenniferRios = () => {

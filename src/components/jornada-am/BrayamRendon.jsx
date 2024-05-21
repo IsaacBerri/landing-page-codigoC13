@@ -20,7 +20,8 @@ const info = {
   color: "#059B9A",
   github: "",
   linkedin: "",
-  portafolio: ""
+  portafolio: "",
+  contratado: false
 }
 
 const BrayamRendon = () => {

@@ -23,7 +23,8 @@ const info = {
   color: "#D08AFF",
   github: "",
   linkedin: "",
-  portafolio: ""
+  portafolio: "",
+  contratado: false
 }
 
 const LauraAlvarez = () => {

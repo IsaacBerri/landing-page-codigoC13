@@ -26,7 +26,8 @@ const info = {
   color: "#C35687",
   github: "https://github.com/4910247Xro",
   linkedin: "https://www.linkedin.com/in/ximena-ortega-2018552b7/",
-  portafolio: "https://portafolio2-delta.vercel.app/"
+  portafolio: "https://portafolio2-delta.vercel.app/",
+  contratado: false
 }
 
 const XimenaOrtega = () => {

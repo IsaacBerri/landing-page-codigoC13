@@ -19,7 +19,8 @@ const info = {
   color: "#95DE90",
   github: "https://github.com/deiberjerez",
   linkedin: "https://www.linkedin.com/in/deiber-jerez/",
-  portafolio: "https://portafolio-nu-livid.vercel.app/"
+  portafolio: "https://portafolio-nu-livid.vercel.app/",
+  contratado: false
 }
 
 const DeiberJerez = () => {

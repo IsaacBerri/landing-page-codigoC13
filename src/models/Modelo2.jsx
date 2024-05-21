@@ -5,6 +5,7 @@ const Modelo2 = ({info}) => {
   return (
     <section className="sectionEstudiante2">
       <span className="talento">{info.talento}</span>
+      {info.contratado && <span className="contratado">CONTRATADO</span>}
       <picture className="estudianteImg">
         <img src={info.img} alt="" />
       </picture>
